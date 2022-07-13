@@ -1,5 +1,10 @@
 <!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
 <title>Shared workers: demo 3</title>
+</head>
+<body>
 <pre id="log">Log:</pre>
 <script>
   var worker = new SharedWorker('shared-worker.js');
@@ -11,3 +16,4 @@
   worker.port.postMessage('ping');
 </script>
 <iframe src="shared-worker-inner.html"></iframe>
+</body>
