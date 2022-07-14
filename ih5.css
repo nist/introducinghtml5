@@ -141,6 +141,10 @@ mark {
   background-color:yellow;
 }
 
+img {
+  border: 0;
+}
+
 .update {
   padding: 10px;
   background: hsla(0, 100%, 100%, 0.05);
